@@ -1,0 +1,80 @@
+./equilibrium_QMC 100.0 10 2000000 200000  > T=100p0J.txt
+./equilibrium_QMC 10.0 10 2000000 200000  > T=10p0J.txt
+./equilibrium_QMC 1.0 10 2000000 200000  > T=1p0J.txt
+./equilibrium_QMC 0.8 10 2000000 200000  > T=0p8J.txt
+./equilibrium_QMC 0.6 10 2000000 200000  > T=0p6J.txt
+./equilibrium_QMC 0.4 10 2000000 200000  > T=0p4J.txt
+./equilibrium_QMC 0.2 10 2000000 200000  > T=0p2J.txt
+
+./equilibrium_QMC 100.0 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=100p0J.txt
+./equilibrium_QMC 10.0 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=10p0J.txt
+./equilibrium_QMC 1.0 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=1p0J.txt
+./equilibrium_QMC 0.8 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=0p8J.txt
+./equilibrium_QMC 0.6 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=0p6J.txt
+./equilibrium_QMC 0.4 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=0p4J.txt
+./equilibrium_QMC 0.2 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=0p2J.txt
+./equilibrium_QMC 0.1 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=0p1J.txt
+./equilibrium_QMC 0.05 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=0p05J.txt
+./equilibrium_QMC 0.01 10 2000000 200000  > heisenberg_StaggeredMagn_FullCounting_T=0p01J.txt
+
+
+
+
+
+./Ising_Wang 0.05 10 2000000 200000  > T=0p05J.txt
+./Ising_Wang 0.10 10 2000000 200000  > T=0p10J.txt
+./Ising_Wang 0.15 10 2000000 200000  > T=0p15J.txt
+./Ising_Wang 0.20 10 2000000 200000  > T=0p20J.txt
+./Ising_Wang 0.25 10 2000000 200000  > T=0p25J.txt
+./Ising_Wang 0.30 10 2000000 200000  > T=0p30J.txt
+./Ising_Wang 0.35 10 2000000 200000  > T=0p35J.txt
+./Ising_Wang 0.40 10 2000000 200000  > T=0p40J.txt
+./Ising_Wang 0.45 10 2000000 200000  > T=0p45J.txt
+./Ising_Wang 0.50 10 2000000 200000  > T=0p50J.txt
+./Ising_Wang 0.55 10 2000000 200000  > T=0p55J.txt
+./Ising_Wang 0.60 10 2000000 200000  > T=0p60J.txt
+./Ising_Wang 0.65 10 2000000 200000  > T=0p65J.txt
+./Ising_Wang 0.70 10 2000000 200000  > T=0p70J.txt
+./Ising_Wang 0.75 10 2000000 200000  > T=0p75J.txt
+./Ising_Wang 0.80 10 2000000 200000  > T=0p80J.txt
+./Ising_Wang 0.85 10 2000000 200000  > T=0p85J.txt
+./Ising_Wang 0.90 10 2000000 200000  > T=0p90J.txt
+./Ising_Wang 0.95 10 2000000 200000  > T=0p95J.txt
+./Ising_Wang 1.00 10 2000000 200000  > T=1p00J.txt
+
+
+./Ising_Wang 0.52 10 200000 20000  > T=0p52J.txt
+./Ising_Wang 0.53 10 200000 20000  > T=0p53J.txt
+./Ising_Wang 0.54 10 200000 20000  > T=0p54J.txt
+./Ising_Wang 0.55 10 200000 20000  > T=0p55J.txt
+./Ising_Wang 0.56 10 200000 20000  > T=0p56J.txt
+./Ising_Wang 0.57 10 200000 20000  > T=0p57J.txt
+./Ising_Wang 0.58 10 200000 20000  > T=0p58J.txt
+./Ising_Wang 0.59 10 200000 20000  > T=0p59J.txt
+./Ising_Wang 0.60 10 200000 20000  > T=0p60J.txt
+./Ising_Wang 0.61 10 200000 20000  > T=0p61J.txt
+
+
+
+./Ising_singleSpinFlip 0.05 10 2000000 200000  > T=0p05J.txt
+./Ising_singleSpinFlip 0.10 10 2000000 200000  > T=0p10J.txt
+./Ising_singleSpinFlip 0.15 10 2000000 200000  > T=0p15J.txt
+./Ising_singleSpinFlip 0.20 10 2000000 200000  > T=0p20J.txt
+./Ising_singleSpinFlip 0.25 10 2000000 200000  > T=0p25J.txt
+./Ising_singleSpinFlip 0.30 10 2000000 200000  > T=0p30J.txt
+./Ising_singleSpinFlip 0.35 10 2000000 200000  > T=0p35J.txt
+./Ising_singleSpinFlip 0.40 10 2000000 200000  > T=0p40J.txt
+./Ising_singleSpinFlip 0.45 10 2000000 200000  > T=0p45J.txt
+./Ising_singleSpinFlip 0.50 10 2000000 200000  > T=0p50J.txt
+./Ising_singleSpinFlip 0.55 10 2000000 200000  > T=0p55J.txt
+./Ising_singleSpinFlip 0.60 10 2000000 200000  > T=0p60J.txt
+./Ising_singleSpinFlip 0.65 10 2000000 200000  > T=0p65J.txt
+./Ising_singleSpinFlip 0.70 10 2000000 200000  > T=0p70J.txt
+./Ising_singleSpinFlip 0.75 10 2000000 200000  > T=0p75J.txt
+./Ising_singleSpinFlip 0.80 10 2000000 200000  > T=0p80J.txt
+./Ising_singleSpinFlip 0.85 10 2000000 200000  > T=0p85J.txt
+./Ising_singleSpinFlip 0.90 10 2000000 200000  > T=0p90J.txt
+./Ising_singleSpinFlip 0.95 10 2000000 200000  > T=0p95J.txt
+./Ising_singleSpinFlip 1.00 10 2000000 200000  > T=1p00J.txt
+
+
