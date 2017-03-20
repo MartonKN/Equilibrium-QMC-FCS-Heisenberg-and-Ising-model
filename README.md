@@ -13,8 +13,11 @@ The code can be compiled using the makefile. The way to run the code:
 ./equilibrium_QMC TEMPERATURE NUMBER_OF_INDEPENDENT_RUNS MONTE_CARLO_UPDATES_PER_RUN MONTE_CARLO_BURN_IN_STEPS_PER_RUN  > myfile.txt
 
 TEMPERATURE = temperature of the spin model
+
 NUMBER_OF_INDEPENDENT_RUNS = how many times do we restart the simulation from a random initial condition
+
 MONTE_CARLO_UPDATES_PER_RUN = how many Monte Carlo updates (cluster spin updates) do we perform per run
+
 MONTE_CARLO_BURN_IN_STEPS_PER_RUN = number of Monte Carlo steps at the beginning of the simulation, until we do not measure any physical quantity (the so-called burn-in period)
 
 
