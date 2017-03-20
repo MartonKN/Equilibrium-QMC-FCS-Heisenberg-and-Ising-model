@@ -1,6 +1,6 @@
 # Equilibrium-QMC-FCS-Heisenberg-and-Ising-model
 
-This folder contains the code we needed to determine the full counting statistics of the staggered magnetization in the Heisenberg model, https://en.wikipedia.org/wiki/Heisenberg_model_(quantum). 
+This folder contains the code we needed to determine the full counting statistics (FCS) of the staggered magnetization in the Heisenberg model, https://en.wikipedia.org/wiki/Heisenberg_model_(quantum). This quantity is interesting because it gives insight into the low energy physics of the system, and it has not been measured before this work. The goal of the numerics was to benchmark the experiment and other theoretical methods.
 
 Corresponding paper: "Experimental realization of a long-range antiferromagnet in the Hubbard model with ultracold atoms", https://arxiv.org/pdf/1612.08436.pdf
 
@@ -20,4 +20,4 @@ MONTE_CARLO_UPDATES_PER_RUN = how many Monte Carlo updates (cluster spin updates
 
 MONTE_CARLO_BURN_IN_STEPS_PER_RUN = number of Monte Carlo steps at the beginning of the simulation, until we do not measure any physical quantity (the so-called burn-in period)
 
-
+myfile.txt = contains the full counting statistics of the staggered magnetization
