@@ -2,7 +2,7 @@
 
 This folder contains the code we needed to determine the full counting statistics of the staggered magnetization in the Heisenberg model, https://en.wikipedia.org/wiki/Heisenberg_model_(quantum). 
 
-Corresponding paper: "Experimental realization of a long-range antiferromagnet in the Hubbard model with ultracold atoms", arXiv:1612.08436
+Corresponding paper: "Experimental realization of a long-range antiferromagnet in the Hubbard model with ultracold atoms", https://arxiv.org/pdf/1612.08436.pdf
 
 About the code:
 
